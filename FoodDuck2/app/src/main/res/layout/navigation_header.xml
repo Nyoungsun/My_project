@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/duck_img" />
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/duck_font"
+        android:text="&quot;푸드덕은 Food와 덕목의 덕을 합친 말로 덕목을 기르듯이 먹지식을 쌓아 쩝쩝박사가 되어보자는 뜻..&quot; "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp" />
+
+</LinearLayout>

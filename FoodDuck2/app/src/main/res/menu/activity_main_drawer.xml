@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/MKorean"
+                android:icon="@drawable/korean"
+                android:title="한식" />
+            <item
+                android:id="@+id/Mcow"
+                android:icon="@drawable/cow"
+                android:title="소고기" />
+            <item
+                android:id="@+id/Mpig"
+                android:icon="@drawable/pig"
+                android:title="돼지고기" />
+            <item
+                android:id="@+id/Mtteokbokki"
+                android:icon="@drawable/tteokbokki"
+                android:title="떡볶이" />
+            <item
+                android:id="@+id/Mjapan"
+                android:icon="@drawable/japan"
+                android:title="일식" />
+            <item
+                android:id="@+id/MSushi"
+                android:icon="@drawable/sushi"
+                android:title="초밥" />
+            <item
+                android:id="@+id/Mramen"
+                android:icon="@drawable/ramen"
+                android:title="라멘" />
+            <item
+                android:id="@+id/Mudon"
+                android:icon="@drawable/udon"
+                android:title="우동" />
+            <item
+                android:id="@+id/Mtakoyaki"
+                android:icon="@drawable/takoyaki"
+                android:title="타코야끼" />
+            <item
+                android:id="@+id/MChinese"
+                android:icon="@drawable/chinese"
+                android:title="중식" />
+            <item
+                android:id="@+id/Mdimsum"
+                android:icon="@drawable/dimsum"
+                android:title="딤섬" />
+            <item
+                android:id="@+id/Mcurry"
+                android:icon="@drawable/curry"
+                android:title="카레" />
+            <item
+                android:id="@+id/Mpasta"
+                android:icon="@drawable/pasta"
+                android:title="파스타" />
+            <item
+                android:id="@+id/Mchicken"
+                android:icon="@drawable/chicken"
+                android:title="치킨" />
+            <item
+                android:id="@+id/MPizza"
+                android:icon="@drawable/pizza"
+                android:title="피자" />
+            <item
+                android:id="@+id/MHamburger"
+                android:icon="@drawable/hamburger"
+                android:title="햄버거" />
+            <item
+                android:id="@+id/Msalad"
+                android:icon="@drawable/salad"
+                android:title="샐러드" />
+            <item
+                android:id="@+id/Mbread"
+                android:icon="@drawable/bread"
+                android:title="빵" />
+            <item
+                android:id="@+id/Mcake"
+                android:icon="@drawable/cake"
+                android:title="케이크" />
+            <item
+                android:id="@+id/Mcoffee"
+                android:icon="@drawable/coffee"
+                android:title="커피" />
+        </menu>
+    </item>
+</menu>
